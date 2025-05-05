@@ -5,6 +5,7 @@ import PlaceDetail from "@/pages/PlaceDetail";
 import AboutDelhi from "@/pages/AboutDelhi";
 import DelhiMap from "@/pages/DelhiMap";
 import { Toaster } from "@/components/ui/toaster";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -16,8 +17,10 @@ function App() {
         <Route path="/about-delhi" element={<AboutDelhi />} />
         <Route path="/delhi-map" element={<DelhiMap />} />
       </Routes>
+      <Analytics />
     </Router>
   );
 }
+
 
 export default App;
