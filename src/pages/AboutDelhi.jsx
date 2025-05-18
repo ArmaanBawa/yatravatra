@@ -11,11 +11,12 @@ const AboutDelhi = () => {
     <div className="min-h-screen bg-background">
       {/* Header */}
       <div className="relative h-[40vh] w-full overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-transparent" />
         <img
+          loading="lazy"
           src="https://images.unsplash.com/photo-1587474260584-136574528ed5"
           alt="Delhi Skyline"
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover brightness-110"
         />
         <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
           <h1 className="text-4xl font-bold md:text-5xl">About Delhi</h1>

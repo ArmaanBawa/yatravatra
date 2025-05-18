@@ -32,13 +32,14 @@ const PlaceDetail = () => {
     >
       {/* Header Image */}
       <div className="relative h-[50vh] w-full overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent" />
         <img
+          loading="lazy"
           src={place.image}
           alt={place.name}
           onError={e => { e.target.onerror = null; e.target.src = '/images/places/default.jpg'; }}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover brightness-110"
         />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 to-transparent" />
         <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
           <h1 className="text-4xl font-bold md:text-5xl">{place.name}</h1>
           <p className="mt-2 text-lg opacity-90">{place.area}</p>

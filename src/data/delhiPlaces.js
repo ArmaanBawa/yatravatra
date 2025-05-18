@@ -38,12 +38,12 @@ export const delhiPlacesData = [
     "transport": "Metro (JLN Stadium), Auto-rickshaw, Bus",
     "busyness": "Moderate",
     "imagePlaceholder": "Image of Humayun's Tomb, Delhi",
-    "image": "/images/places/humayuns-tomb.jpg",
+    "image": "/images/places/humayun's-tomb.jpg",
     "nearbyMarkets": "Khan Market, Lajpat Nagar Central Market"
   },
   {
     "id": 4,
-    "name": "Red Fort (Lal Qila)",
+    "name": "Red Fort",
     "area": "Old Delhi",
     "shortDescription": "Historic fort residence of Mughal emperors.",
     "longDescription": "A massive red sandstone fort complex, another UNESCO site, representing the zenith of Mughal creativity. Hosts the Independence Day flag hoisting ceremony.",
@@ -52,7 +52,7 @@ export const delhiPlacesData = [
     "transport": "Metro (Lal Qila), Auto-rickshaw, Cycle Rickshaw",
     "busyness": "Busy",
     "imagePlaceholder": "Image of Red Fort, Delhi",
-    "image": "/images/places/red-fort-lal-qila.jpg",
+    "image": "/images/places/red-fort-(lal-qila).jpg",
     "nearbyMarkets": "Chandni Chowk, Dariba Kalan, Kinari Bazaar"
   },
   {
