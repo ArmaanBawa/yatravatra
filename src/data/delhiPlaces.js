@@ -94,7 +94,7 @@ export const delhiPlacesData = [
     "transport": "Metro (Chandni Chowk), Cycle Rickshaw",
     "busyness": "Busy",
     "imagePlaceholder": "Image of Chandni Chowk market, Delhi",
-    "image": "/images/places/chandni-chowk.jpg",
+    "image": "/images/places/chandni-chowk.png",
     "nearbyMarkets": "Chandni Chowk Market, Nai Sarak, Chawri Bazar"
   },
   {
