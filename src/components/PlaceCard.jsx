@@ -39,8 +39,9 @@ const PlaceCard = ({ place }) => {
     >
       <div className="relative h-48 w-full overflow-hidden">
         <img
-          src={place.image || `https://source.unsplash.com/800x600/?${place.name.replace(/\s+/g, ',')}`}
+          src={place.image}
           alt={place.name}
+          onError={e => { e.target.onerror = null; e.target.src = '/images/places/default.jpg'; }}
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

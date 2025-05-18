@@ -34,8 +34,9 @@ const PlaceDetail = () => {
       <div className="relative h-[50vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent" />
         <img
-          src={place.image || `https://source.unsplash.com/1600x900/?${place.name.replace(/\s+/g, ',')}`}
+          src={place.image}
           alt={place.name}
+          onError={e => { e.target.onerror = null; e.target.src = '/images/places/default.jpg'; }}
           className="h-full w-full object-cover"
         />
         <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
