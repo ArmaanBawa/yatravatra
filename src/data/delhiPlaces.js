@@ -10,7 +10,7 @@ export const delhiPlacesData = [
     "transport": "Metro (Central Secretariat), Auto-rickshaw, Bus",
     "busyness": "Busy",
     "imagePlaceholder": "Image of India Gate, Delhi",
-    "image": "/images/places/india-gate.jpg",
+    "image": "/images/places/india-gate.png",
     "nearbyMarkets": "Connaught Place, Janpath Market, Palika Bazaar"
   },
   {
@@ -24,7 +24,7 @@ export const delhiPlacesData = [
     "transport": "Metro (Qutub Minar), Auto-rickshaw, Bus",
     "busyness": "Moderate",
     "imagePlaceholder": "Image of Qutub Minar, Delhi",
-    "image": "/images/places/qutub-minar.jpg",
+    "image": "/images/places/qutub-minar.png",
     "nearbyMarkets": "Mehrauli Market, DLF Promenade (Vasant Kunj), Ambience Mall (Vasant Kunj)"
   },
   {
@@ -38,7 +38,7 @@ export const delhiPlacesData = [
     "transport": "Metro (JLN Stadium), Auto-rickshaw, Bus",
     "busyness": "Moderate",
     "imagePlaceholder": "Image of Humayun's Tomb, Delhi",
-    "image": "/images/places/humayuns-tomb.jpg",
+    "image": "/images/places/humayuns-tomb.png",
     "nearbyMarkets": "Khan Market, Lajpat Nagar Central Market"
   },
   {
@@ -52,7 +52,7 @@ export const delhiPlacesData = [
     "transport": "Metro (Lal Qila), Auto-rickshaw, Cycle Rickshaw",
     "busyness": "Busy",
     "imagePlaceholder": "Image of Red Fort, Delhi",
-    "image": "/images/places/red-fort-lal-qila.jpg",
+    "image": "/images/places/red-fort-lal-qila.png",
     "nearbyMarkets": "Chandni Chowk, Dariba Kalan, Kinari Bazaar"
   },
   {
@@ -66,7 +66,7 @@ export const delhiPlacesData = [
     "transport": "Metro (Kalkaji Mandir), Auto-rickshaw, Bus",
     "busyness": "Busy",
     "imagePlaceholder": "Image of Lotus Temple, Delhi",
-    "image": "/images/places/lotus-temple.jpg",
+    "image": "/images/places/lotus-temple.png",
     "nearbyMarkets": "Nehru Place Market, Greater Kailash M-Block Market"
   },
   {
@@ -80,7 +80,7 @@ export const delhiPlacesData = [
     "transport": "Metro (Akshardham), Auto-rickshaw",
     "busyness": "Busy",
     "imagePlaceholder": "Image of Akshardham Temple, Delhi",
-    "image": "/images/places/akshardham-temple.jpg",
+    "image": "/images/places/akshardham-temple.png",
     "nearbyMarkets": "Cross River Mall, Gandhi Nagar Market"
   },
   {
@@ -108,7 +108,7 @@ export const delhiPlacesData = [
     "transport": "Metro (Jor Bagh), Auto-rickshaw, Bus",
     "busyness": "Quiet",
     "imagePlaceholder": "Image of Lodhi Garden, Delhi",
-    "image": "/images/places/lodhi-garden.jpg",
+    "image": "/images/places/lodhi-garden.png",
     "nearbyMarkets": "Khan Market, INA Market, Dilli Haat"
   }
 ];
