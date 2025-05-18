@@ -33,13 +33,15 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button
-            variant="outline"
-            size="sm"
-            className="border-primary text-primary hover:bg-primary/10"
-          >
-            Contact Us
-          </Button>
+          <Link to="/contact-us">
+            <Button
+              variant="outline"
+              size="sm"
+              className="border-primary text-primary hover:bg-primary/10"
+            >
+              Contact Us
+            </Button>
+          </Link>
         </div>
       </div>
     </motion.header>

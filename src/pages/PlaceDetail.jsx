@@ -34,7 +34,7 @@ const PlaceDetail = () => {
       <div className="relative h-[50vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-transparent" />
         <img
-          src={`https://source.unsplash.com/1600x900/?${place.name.replace(/\s+/g, ',')}`}
+          src={place.image || `https://source.unsplash.com/1600x900/?${place.name.replace(/\s+/g, ',')}`}
           alt={place.name}
           className="h-full w-full object-cover"
         />

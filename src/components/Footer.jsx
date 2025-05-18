@@ -26,9 +26,8 @@ const Footer = () => {
             <h3 className="mb-4 text-sm font-semibold uppercase text-secondary-foreground/90">Explore Delhi</h3>
             <ul className="space-y-2 text-sm">
               <li><a href="#places" className="text-secondary-foreground/80 hover:text-primary">Tourist Places</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-primary">Food Guide</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-primary">Shopping</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-primary">Events</a></li>
+              <li><a href="/food-guide" className="text-secondary-foreground/80 hover:text-primary">Food Guide</a></li>
+              <li><a href="/shopping-guide" className="text-secondary-foreground/80 hover:text-primary">Shopping</a></li>
             </ul>
           </div>
 
@@ -57,18 +56,18 @@ const Footer = () => {
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase text-secondary-foreground/90">Delhi Information</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-primary">About Delhi</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-primary">Transportation</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-primary">Travel Tips</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-primary">Contact Us</a></li>
+              <li><a href="/about-delhi" className="text-secondary-foreground/80 hover:text-primary">About Delhi</a></li>
+              <li><a href="/transportation" className="text-secondary-foreground/80 hover:text-primary">Transportation</a></li>
+              <li><a href="/travel-tips" className="text-secondary-foreground/80 hover:text-primary">Travel Tips</a></li>
+              <li><a href="/contact-us" className="text-secondary-foreground/80 hover:text-primary">Contact Us</a></li>
             </ul>
           </div>
 
           <div>
             <h3 className="mb-4 text-sm font-semibold uppercase text-secondary-foreground/90">Legal</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-primary">Privacy Policy</a></li>
-              <li><a href="#" className="text-secondary-foreground/80 hover:text-primary">Terms of Service</a></li>
+              <li><a href="/privacy-policy" className="text-secondary-foreground/80 hover:text-primary">Privacy Policy</a></li>
+              <li><a href="/terms-of-service" className="text-secondary-foreground/80 hover:text-primary">Terms of Service</a></li>
             </ul>
           </div>
         </div>

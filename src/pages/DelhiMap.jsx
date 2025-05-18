@@ -51,6 +51,60 @@ const DelhiMap = () => {
       description: "Modern Hindu temple complex",
       coordinates: { lat: 28.6127, lng: 77.2773 },
       category: "Religious"
+    },
+    {
+      name: "Humayun's Tomb",
+      description: "UNESCO World Heritage Site and Mughal architecture masterpiece",
+      coordinates: { lat: 28.5933, lng: 77.2508 },
+      category: "Historical"
+    },
+    {
+      name: "Jama Masjid",
+      description: "India's largest mosque with stunning architecture",
+      coordinates: { lat: 28.6507, lng: 77.2334 },
+      category: "Religious"
+    },
+    {
+      name: "Connaught Place",
+      description: "Historic circular market and shopping district",
+      coordinates: { lat: 28.6315, lng: 77.2167 },
+      category: "Market"
+    },
+    {
+      name: "National Museum",
+      description: "India's largest museum showcasing rich cultural heritage",
+      coordinates: { lat: 28.6119, lng: 77.2195 },
+      category: "Museum"
+    },
+    {
+      name: "Lodhi Garden",
+      description: "Historic park with tombs and beautiful landscapes",
+      coordinates: { lat: 28.5892, lng: 77.2276 },
+      category: "Park"
+    },
+    {
+      name: "Dilli Haat",
+      description: "Traditional craft bazaar and food court",
+      coordinates: { lat: 28.5687, lng: 77.2097 },
+      category: "Market"
+    },
+    {
+      name: "Safdarjung's Tomb",
+      description: "Last garden tomb of the Mughal era",
+      coordinates: { lat: 28.5892, lng: 77.2104 },
+      category: "Historical"
+    },
+    {
+      name: "National Gallery of Modern Art",
+      description: "Premier art gallery showcasing modern Indian art",
+      coordinates: { lat: 28.6100, lng: 77.2295 },
+      category: "Museum"
+    },
+    {
+      name: "Gurudwara Bangla Sahib",
+      description: "Famous Sikh temple with a sacred water pool",
+      coordinates: { lat: 28.6267, lng: 77.2091 },
+      category: "Religious"
     }
   ];
 

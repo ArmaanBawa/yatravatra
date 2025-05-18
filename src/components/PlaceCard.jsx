@@ -39,7 +39,7 @@ const PlaceCard = ({ place }) => {
     >
       <div className="relative h-48 w-full overflow-hidden">
         <img
-          src={`https://source.unsplash.com/800x600/?${place.name.replace(/\s+/g, ',')}`}
+          src={place.image || `https://source.unsplash.com/800x600/?${place.name.replace(/\s+/g, ',')}`}
           alt={place.name}
           className="h-full w-full object-cover"
         />
