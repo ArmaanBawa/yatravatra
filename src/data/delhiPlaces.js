@@ -38,7 +38,7 @@ export const delhiPlacesData = [
     "transport": "Metro (JLN Stadium), Auto-rickshaw, Bus",
     "busyness": "Moderate",
     "imagePlaceholder": "Image of Humayun's Tomb, Delhi",
-    "image": "/images/places/humayun's-tomb.jpg",
+    "image": "/images/places/humayuns-tomb.jpg",
     "nearbyMarkets": "Khan Market, Lajpat Nagar Central Market"
   },
   {
@@ -52,7 +52,7 @@ export const delhiPlacesData = [
     "transport": "Metro (Lal Qila), Auto-rickshaw, Cycle Rickshaw",
     "busyness": "Busy",
     "imagePlaceholder": "Image of Red Fort, Delhi",
-    "image": "/images/places/red-fort-(lal-qila).jpg",
+    "image": "/images/places/red-fort-lal-qila.jpg",
     "nearbyMarkets": "Chandni Chowk, Dariba Kalan, Kinari Bazaar"
   },
   {
