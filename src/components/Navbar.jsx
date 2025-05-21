@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
+import ThemeToggle from "./ThemeToggle";
 
 const Navbar = () => {
   return (
@@ -33,6 +34,7 @@ const Navbar = () => {
         </nav>
 
         <div className="flex items-center gap-4">
+          <ThemeToggle />
           <Link to="/contact-us">
             <Button
               variant="outline"
