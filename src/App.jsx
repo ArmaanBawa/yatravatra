@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Layout from "@/components/Layout";
 // import Home from "@/pages/Home";
 // import PlaceDetail from "@/pages/PlaceDetail";
 // import AboutDelhi from "@/pages/AboutDelhi";
@@ -36,17 +37,17 @@ function App() {
       <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/place/:id" element={<PlaceDetail />} />
-          <Route path="/about-delhi" element={<AboutDelhi />} />
-          <Route path="/delhi-map" element={<DelhiMap />} />
-          <Route path="/food-guide" element={<FoodGuide />} />
-          <Route path="/shopping-guide" element={<ShoppingGuide />} />
-          <Route path="/transportation" element={<Transportation />} />
-          <Route path="/travel-tips" element={<TravelTips />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-          <Route path="/terms-of-service" element={<TermsOfService />} />
-          <Route path="/more-cities" element={<MoreCities />} />
+          <Route path="/place/:id" element={<Layout><PlaceDetail /></Layout>} />
+          <Route path="/about-delhi" element={<Layout><AboutDelhi /></Layout>} />
+          <Route path="/delhi-map" element={<Layout><DelhiMap /></Layout>} />
+          <Route path="/food-guide" element={<Layout><FoodGuide /></Layout>} />
+          <Route path="/shopping-guide" element={<Layout><ShoppingGuide /></Layout>} />
+          <Route path="/transportation" element={<Layout><Transportation /></Layout>} />
+          <Route path="/travel-tips" element={<Layout><TravelTips /></Layout>} />
+          <Route path="/contact-us" element={<Layout><ContactUs /></Layout>} />
+          <Route path="/privacy-policy" element={<Layout><PrivacyPolicy /></Layout>} />
+          <Route path="/terms-of-service" element={<Layout><TermsOfService /></Layout>} />
+          <Route path="/more-cities" element={<Layout><MoreCities /></Layout>} />
         </Routes>
       </Suspense>
       <Analytics />
