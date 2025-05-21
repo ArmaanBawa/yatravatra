@@ -26,6 +26,7 @@ const ContactUs = lazy(() => import("@/pages/ContactUs"));
 const PrivacyPolicy = lazy(() => import("@/pages/PrivacyPolicy"));
 const TermsOfService = lazy(() => import("@/pages/TermsOfService"));
 const MoreCities = lazy(() => import("@/pages/MoreCities"));
+const Contribute = lazy(() => import("@/pages/Contribute"));
 
 import { Toaster } from "@/components/ui/toaster";
 import { Analytics } from '@vercel/analytics/react';
@@ -48,6 +49,7 @@ function App() {
           <Route path="/privacy-policy" element={<Layout><PrivacyPolicy /></Layout>} />
           <Route path="/terms-of-service" element={<Layout><TermsOfService /></Layout>} />
           <Route path="/more-cities" element={<Layout><MoreCities /></Layout>} />
+          <Route path="/contribute" element={<Layout><Contribute /></Layout>} />
         </Routes>
       </Suspense>
       <Analytics />

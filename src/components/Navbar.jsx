@@ -27,6 +27,7 @@ const Navbar = () => {
           <a href="#places" className="text-sm font-medium text-foreground hover:text-primary">Delhi Places</a>
           <Link to="/delhi-map" className="text-sm font-medium text-muted-foreground hover:text-primary">Delhi Map</Link>
           <Link to="/about-delhi" className="text-sm font-medium text-muted-foreground hover:text-primary">About Delhi</Link>
+          <Link to="/contribute" className="text-sm font-medium text-muted-foreground hover:text-primary">Contribute</Link>
           <span className="relative">
             <Link to="/more-cities" className="text-sm font-medium text-muted-foreground hover:text-primary">More Cities</Link>
             <span className="absolute -top-2 -right-2 rounded-full bg-primary px-2 py-0.5 text-[10px] font-bold text-primary-foreground">
