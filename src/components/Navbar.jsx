@@ -18,7 +18,9 @@ const Navbar = () => {
           <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
             <MapPin size={16} />
           </div>
-          <span className="text-xl font-bold text-foreground">Yatra Vatra</span>
+          <Link to="/" className="text-xl font-bold text-foreground hover:text-primary transition-colors">
+            Yatra Vatra
+          </Link>
         </div>
 
         <nav className="hidden space-x-6 md:flex">
